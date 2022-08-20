@@ -1,0 +1,213 @@
+*{
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+ul,
+li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.container{
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: black;
+  background: white;
+
+  margin: 0;
+  /*font-family: 'Poppins', sans-serif;*/
+}
+header{
+   line-height: 23.03px;
+
+   width: 940px;
+   height: 88px;
+   margin: 0 auto;
+   padding: 0;
+   border-bottom: 1px solid #828282;
+}
+.menu {
+  padding: 33px 0;
+}
+header ul{
+  display: flex;
+  padding: 0;
+}
+header li + li{
+  padding-left: 156px;
+}
+header a{
+  color: #828282;
+}
+.active{
+  color: #000000;
+}
+.denis_novik {
+  margin: 0 auto;
+  height: 679px;
+  width: 940px;
+}
+.text {
+  display: flex;
+  width: 940px;
+}
+h1{
+  font-size: 47.34px;
+  font-weight: 700;
+  line-height: 59px;
+}
+p.description{
+  line-height: 22.03px;
+  padding: 0;
+  margin-top: 94px;
+  margin-left: 297px;
+}
+p.side_label{
+  font-size: 16px;
+  font-weight: 700;
+  transform: rotate(-90deg);
+  transform-origin: right top;
+  float: left;
+  margin-top: 75px;
+  margin-bottom: 0;
+  margin-left: 285px;
+  padding: 0;
+}
+.side_label span {
+  color: #828282;
+}
+.about_me {
+  background: #F6F6F6;
+}
+h2 {
+  font-size: 34px;
+  line-height: 43.06px;
+  font-weight: 700;
+
+  text-align: center;
+}
+.about_me h2 {
+  padding: 120px 0 18px;
+  margin: 0;
+}
+.about_me p {
+  text-align: center;
+  padding-bottom: 107px;
+  margin: 0;
+}
+.skills h2 {
+  line-height: 26.04px;
+  padding: 91px 0 69px;
+  margin: 0;
+}
+.skills{
+  text-align: center;
+}
+.programs {
+  display: flex;
+  margin: 84px auto 110px;
+  width: 936.6px;
+  height: 205.3px;
+}
+p.i_work{
+  padding: 0;
+  margin: 0;
+}
+.program + .program {
+  margin-left: 91px;
+}
+.program img {
+  margin: 0;
+}
+.program p {
+  font-size: 14px;
+  line-height: 15px;
+  font-weight: 700;
+  color: #828282;
+
+  margin: 24px 0 37px;
+  padding: 0;
+}
+.program.figma p {
+  margin-top: 23px;
+  margin-bottom: 52px;
+}
+.stars img + img{
+  margin-left: 9px;
+}
+.portfolio {
+  background: #F6F6F6;
+}
+.portfolio h2 {
+  margin: 0;
+  padding: 113px 0 47px;
+}
+.portfolio img {
+  margin: 0 auto;
+  display: flex;
+}
+.portfolio p {
+  text-align: center;
+  margin: 45px auto 0;
+  padding-bottom: 99px;
+}
+.portfolio a {
+  text-decoration: underline;
+  color: #000000;
+}
+.contacts h2 {
+  padding: 114px 0 20px;
+  margin: 0;
+}
+button {
+  background: #000000;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 20px;
+  width: 180.5px;
+  height: 42px;
+  box-shadow: 0 5px 10px #d1d1d1;
+
+  cursor: pointer;
+  display: flex;
+  margin: 30px auto 86px;
+}
+button p {
+  padding: 8px 19px;
+  line-height: 23px;
+}
+.contacts p {
+  line-height: 22.03px;
+  text-align: center;
+  margin: 0;
+}
+.social_media {
+  display: flex;
+  width: 343px;
+  margin: 0 auto 46px;
+}
+.social_media a + a{
+  padding-left: 61px;
+}
+.contacts p.like {
+  font-size: 14px;
+  color: #828282;
+  line-height: 17.025px;
+  margin-bottom: 123px;
+}
+a.link {
+  line-height: 0;
+  font-size: 0;
+  margin: 0;
+}
